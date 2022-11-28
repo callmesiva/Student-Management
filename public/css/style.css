@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    background-color:darkolivegreen
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    width: 500px;
+    height:500px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+h3{
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+}
+table td{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+table thead td{
+    background-color: gray;
+    text-align: center;
+}
+
+.edit,.delete{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(99, 61, 136);
+    display: inline-block;
+    width: 65px;
+    border-radius: 4px;
+}
+.delete{
+    background-color: rgb(154, 43, 43);
+}
+
+.adduser{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(7, 114, 78);
+    padding: 1px 10px 1px 10px;
+    border-radius: 4px;
+    margin-right: 8px;
+    
+}
+h4{
+    text-align: right;
+}
+
+.form-group{
+    margin-top: 25px;
+text-align: center;
+}
+
+.form-group input{
+    width: 300px;
+    display: block;
+    margin-left:100px;
+}
+
+.form-group label{
+    text-align: center;
+    font-weight: bold;
+    }
+
+  .viewall, button{
+    background-color: black;
+    color: aliceblue;
+    padding: 0px 10px 0px 10px;
+    border-radius: 4px;
+   } 
+
+   .viewall{
+    font-size: 13px;
+    text-decoration: none;
+   }
+
+   h5{
+    animation: hideAnimation 0s ease-in 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes hideAnimation {
+    to {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }

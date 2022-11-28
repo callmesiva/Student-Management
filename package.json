@@ -1,0 +1,23 @@
+{
+  "name": "crud-operations",
+  "version": "1.0.0",
+  "description": "creating and perform full-stack crud operations using express and mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-sql-parser": "^4.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
